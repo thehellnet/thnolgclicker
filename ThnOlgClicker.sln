@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThnOlgClicker", "ThnOlgClicker\ThnOlgClicker.csproj", "{525C8E59-FEF0-463A-AEF0-8D831DC55F73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525C8E59-FEF0-463A-AEF0-8D831DC55F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525C8E59-FEF0-463A-AEF0-8D831DC55F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525C8E59-FEF0-463A-AEF0-8D831DC55F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525C8E59-FEF0-463A-AEF0-8D831DC55F73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9FBCEE5-DFDA-482C-BDCE-18C84410B56C}
+	EndGlobalSection
+EndGlobal
