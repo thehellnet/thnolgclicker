@@ -4,9 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ThnOlgClicker"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="ThnOlgClicker" Height="240" Width="320">
+    <Grid Margin="10">
+        <ToggleButton x:Name="toggleButton" Margin="10,10,10,72" Content="Enable mouse click" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked"/>
+        <Label x:Name="timerLabel" Content="timerLabel" Margin="10,0,182,10" Height="26" VerticalAlignment="Bottom"/>
+        <ProgressBar x:Name="progressBar" Margin="110,0,10,10" Height="26" VerticalAlignment="Bottom"/>
+        <Slider x:Name="timeoutSlider" Margin="110,0,10,41" Height="26" VerticalAlignment="Bottom" ValueChanged="TimeoutSlider_ValueChanged"/>
+        <Label x:Name="timeoutLabel" Content="timeoutLabel" HorizontalAlignment="Left" Margin="10,0,0,41" Height="26" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
